@@ -3,9 +3,9 @@ public class SimpleCalculator {
     public static void main(String[] args) {
         Scanner Number = new Scanner(System.in);
         System.out.println("enter the first number:");
-            double FirstNumber = Number.nextInt();
+            double FirstNumber = Number.nextdouble();
         System.out.println("enter the 2nd number");
-            double SecNumber = Number.nextInt();
+            double SecNumber = Number.nextdouble();
         System.out.println("pick the operation + , - , x , / , % , sqrt");
          String operation = Number.next();
         if (operation.equals("/") && SecNumber == 0) {
